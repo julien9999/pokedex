@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "baseUrl": "",
+    "jsx": "react",
+    "paths": {
+      "hooks": [
+        "./src/utils/hooks"
+      ],
+      "helper": [
+        "./src/utils/helper"
+      ],
+      "~constants": [
+        "./src/constants"
+      ],
+      "api": [
+        "./src/services/api"
+      ],
+      "locales": [
+        "./src/locales"
+      ],
+      "global": [
+        "./src/components/global"
+      ],
+      "containers/*": [
+        "./src/containers/*"
+      ],
+      "components/*": [
+        "./src/components/*"
+      ],
+      "utils/*": [
+        "./src/utils/*"
+      ],
+      "e2eUtils": [
+        "./e2e/utils.js"
+      ],
+      "types": [
+        "./src/types"
+      ]
+    }
+  }
+}
